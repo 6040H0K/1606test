@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-90lib6l=+1%ixs6^214#u&p0vntprw9)(y6i*!mmurw=1r%t%e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://jfosdihclcofkmifjkojfkoddkop.pythonanywhere.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -76,17 +76,14 @@ WSGI_APPLICATION = 'proj.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        "NAME": "jfosdihclcofkmif$db1",
-        "USER": "jfosdihclcofkmif",
-        'PASSWORD': 'databasesuper1234',
-        "HOST": 'jfosdihclcofkmifjkojfkoddkop.mysql.pythonanywhere-services.com',
-        "PORT": "3306"
-        
+        'ENGINE': 'django.db.backends.postgresql',
+        "NAME": "csdahkjdhgerdfghjbkl",
+        "USER": "csdahkjdhgerdfghjbkl_user", 
+        "PASSWORD": "4BU49Q4c80nnSXgN4nKbClSUi2ndNRDV",
+        "HOST": "dpg-cpnf49mehbks7386e6cg-a.oregon-postgres.render.com",
+        "PORT": "5432"
     }
 }
-
-# databasesuper1234
 
 
 # Password validation
