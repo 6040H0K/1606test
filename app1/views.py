@@ -4,4 +4,4 @@ from .models import *
 # Create your views here.
 def main(request):
 
-    return HttpResponse('\n'.join(list(Product.objects.all())))
+    return HttpResponse('\n'.join(list(map(str,list(Product.objects.all())))))
