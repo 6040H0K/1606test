@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['dsafddsgdsghjkl.pythonanywhere.com']
 
-
+# 
 # Application definition
 
 INSTALLED_APPS = [
@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'proj.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        "NAME": "csdahkjdhgerdfghjbkl",
-        "USER": "csdahkjdhgerdfghjbkl_user", 
-        "PASSWORD": "4BU49Q4c80nnSXgN4nKbClSUi2ndNRDV",
-        "HOST": "dpg-cpnf49mehbks7386e6cg-a.oregon-postgres.render.com",
-        "PORT": "5432"
+        'ENGINE': 'django.db.backends.mysql',
+        "NAME": "dsafddsgdsghjkl$db1",
+        "USER": "dsafddsgdsghjkl", 
+        "PASSWORD": "superdb1234",
+        "HOST": "dsafddsgdsghjkl.mysql.pythonanywhere-services.com",
+        "PORT": "3306"
     }
 }
 
